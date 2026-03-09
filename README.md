@@ -13,6 +13,12 @@ Script reads pixel coordinates from text file and runs command `git commit` for 
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
+   ```
+1. **Init**:
+   ```bash
+   git add README.md
+   git commit -m "Initialize repository"
+   ```
 1. Create file `data.txt` with coordinates (format: week, day):
 * x (week): 0..51
 * y (day): 0(Sunday)..6(Saturday)
